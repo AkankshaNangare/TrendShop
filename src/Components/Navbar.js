@@ -29,7 +29,7 @@ const Navbar = () => {
                   <NavLink
                     className="nav-link active"
                     aria-current="page"
-                    to="/TrendShop"
+                    to="TrendShop"
                     style={{ color: "white" }}
                   >
                     Home

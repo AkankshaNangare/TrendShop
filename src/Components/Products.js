@@ -39,7 +39,7 @@ function Products() {
                   <h5 className="card-title">
                     {ele.title.substring(0, 12)}...
                   </h5>
-                  <p className="card-text fw-bold">Rs.{ele.price * 70}</p>
+                  <p className="card-text fw-bold">Rs.{Math.ceil(ele.price * 80)}</p>
                   <NavLink
                     to={`/products/${ele.id}`}
                     className="btn btn-outline-danger"
